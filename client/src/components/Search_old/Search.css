@@ -1,0 +1,26 @@
+.card {
+    
+    display:inline-block;
+    position: relative;
+    
+}
+
+.card:hover .overlay {
+  height:80%;
+  opacity: .4;
+  background-color: grey;
+  color:black;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+

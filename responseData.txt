@@ -1,0 +1,46 @@
+{
+"id":"4c3c76bd7f49c9b65de16be3",
+"name":"Michael’s Food Cart",
+"contact":
+{"phone":"7189029951",
+"formattedPhone":"(718) 902-9951"},
+"location":
+{"address":"South Street",
+"crossStreet":"Corner of South St and Wall St",
+"lat":40.70013381479425,
+"lng":-73.99983798076666,
+"labeledLatLngs":[{"label":"display","lat":40.70013381479425,"lng":-73.99983798076
+666}],
+"distance":20,
+"cc":"US",
+"city":"New York",
+"state":"NY",
+"country":"United States",
+"formattedAddress":["South Street (Corner of South St and Wall St)","New York, NY","U
+nited States"]
+},
+
+"categories":[
+{
+"id":"4bf58dd8d48988d1cb941735",
+"name":"Food Truck",
+"pluralName":"Food Trucks",
+"shortName":"Food Truck",
+"icon":
+{"prefix":"https://ss3.4sqi.ne
+t/img/categories_v2/food/streetfood_",
+"suffix":".png"},
+"primary":true
+}
+],
+"verified":false,
+"stats":{"checkinsCount":50,"usersCount":39,"tipCount":1},
+"allowMenuUrlEdit":true,"
+beenHere":{"lastCheckinExpiredAt":0},
+"specials":{"count":0,"items":[]},
+"hereNow":{"count":0,"summary":"Nobody here","groups":[]},
+"referralId":"v-1511839956",
+"venueChains":[
+],
+"hasPerk":false
+}
