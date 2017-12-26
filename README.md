@@ -1,42 +1,67 @@
-# Create React Express App
+<<<<<<< HEAD
+![logo](https://user-images.githubusercontent.com/30422279/33820868-4e1de4aa-de06-11e7-8854-eb4a6110e0ae.PNG)
+## Overview
+An application that searches restaurants, landmarks, and musuems based on user location. Alongside searches, users can save searches and receive recommendations based saved searches.
 
-## About This Boilerplate
+## Getting Started
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
+Users can type a location and choose category in a dropbox. Searches contain three pieces of information: name, images, and two buttons containing both a save button and link to an external site containing more detail of the venue. Users can also sign up and register using Google Authorization using passport. When a user is successfully register, they will have the ability to save venues. Saved venues can be views for later. In additon, the recommendation panel suggests venues based on all saved venues. 
 
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
+## Features
+ 
+### Search Cards 
+![search](https://user-images.githubusercontent.com/30422279/33823812-395955c6-de11-11e7-8d18-6340eada9bbf.PNG)
 
-## Starting the app locally
+### Trending Venues
 
-Start by installing front and backend dependencies. While in this directory, run the following commands:
+### Saved Venues
 
-```
-yarn install
-cd client
-yarn install
-cd ..
-``
+### Recommendation
 
-After both installations complete, run the following command in your terminal:
 
-```
-yarn start
-```
+### Google Authentication
 
-That's it, your app should be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
 
-## Deployment (Heroku)
+## Technologies Used
+Node.js, React.js, MongoDB, Express, React-Bootstrap
 
-After confirming that you have an up to date git repository and a Heroku app created, complete the following:
+## Contributors
 
-1. Build the React app for production by running the following command:
+Mahtab Ghez, Mike Murphy, Fawaz Ahmed, Joseph Cantos
 
-```
-yarn build
-```
+## Licensed Use
+  MIT License
+  
 
-2. Add and commit all changes to git
+=======
+![logo](https://user-images.githubusercontent.com/30422279/33820868-4e1de4aa-de06-11e7-8854-eb4a6110e0ae.PNG)
+## Overview
+An application that searches restaurants, landmarks, and musuems based on user location. Alongside searches, users can save searches and receive recommendations based saved searches.
 
-3. Push to Heroku
+## Getting Started
 
-If all previous steps were followed correctly, your application should be deployed to Heroku!
+Users can type a location and choose category in a dropbox. Searches contain three pieces of information: name, images, and two buttons containing both a save button and link to an external site containing more detail of the venue. Users can also sign up and register using Google Authorization using passport. When a user is successfully register, they will have the ability to save venues. Saved venues can be views for later. In additon, the recommendation panel suggests venues based on all saved venues. 
+
+## Features
+ 
+### Search Cards 
+![search](https://user-images.githubusercontent.com/30422279/33823812-395955c6-de11-11e7-8d18-6340eada9bbf.PNG)
+
+### Saved Venues
+![pasted image at 2017_12_12 02_33 pm](https://user-images.githubusercontent.com/30422279/33925654-ac976fe4-df8f-11e7-8eb5-cf985ba370ca.png)
+### Recommendation 
+![pasted image at 2017_12_12 02_34 pm](https://user-images.githubusercontent.com/30422279/33925691-e40af19e-df8f-11e7-9a67-4eb77d230e15.png)
+
+
+## Technologies Used
+Node.js, React.js, MongoDB, Express, React-Bootstrap
+
+## Contributors
+
+Mahtab Ghez, Mike Murphy, Fawaz Ahmed, Joseph Cantos
+
+## Licensed Use
+  MIT License
+  
+
+>>>>>>> 28190f2c7cf71e7df966e6fc65d9a8596805ab5e
